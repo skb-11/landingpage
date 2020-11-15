@@ -1,0 +1,155 @@
+*{
+    background-color: #efeeea;
+}
+body {
+    background-color:rgb(239, 239, 235);
+    font-family: 'Raleway', sans-serif;
+  }
+  .navigation {
+      height: 50px;
+      text-align: center;
+      margin-top: 50px;
+  }
+  .navigation a {
+      background:  rgba(90, 74, 74, 0.05);
+      color:rgb(90, 74, 74);
+      display: inline-block;
+      padding: 5px;
+      font-weight: 600;
+      font-size: 13px;
+      border-radius: 3px;
+      text-decoration: none;
+      transition-property: background-color;
+      transition-duration: 750ms;
+    }
+  .navigation a:hover {
+      background-color: rgb(90, 74, 74);
+      color: white;
+  }
+
+.article {
+    width: 1200px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+img {
+    width: 600px;
+    height: 350px;
+}
+.content {
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+time {
+    background-color: white;
+    margin-left: 400px;
+}
+.text {
+    background-color: white;
+    margin-left:30px;
+    margin-right: 30px;
+}
+.text h2,p {
+    background-color: white;
+}
+.content .category {
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.paginate {
+    height: 50px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .paginate a {
+     background: rgba(90, 74, 74, 0.4);
+     color: white;
+     display: inline-block;
+     padding: 5px;
+     border-radius: 3px;
+     text-decoration: none;
+     font-weight: 600;
+     font-size: 13px;
+     transition-property: background-color;
+     transition-duration: 750ms;
+ }
+ .paginate a:hover {
+     background-color: rgb(90, 74, 74);
+ }
+hr {
+    width: 1200px;
+    margin-top: 20px;
+}
+
+ /*
+  h2 {
+      color: rgb(90, 74, 74);
+  }
+  img {
+      width: 100%;
+      height: auto;
+  }
+  .article {
+      background-color: white;
+      height: 400px;
+      width: 400px;
+      margin: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: justify;
+      padding: 50px;
+  }
+  .categorie a {
+      background: rgba(90, 74, 74, 0.05);
+      color: rgb(90, 74, 74);
+      display: inline-block;
+      padding: 2px;
+      border-radius: 3px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 10px;
+      transition-property: background-color;
+      transition-duration: 750ms;
+  }
+  .categorie a:hover {
+      background-color: rgb(90, 74, 74);
+      color: white;
+  }
+  .paginate {
+    height: 50px;
+    text-align: center;
+  }
+  .paginate a {
+     background: rgba(90, 74, 74, 0.4);
+     color: white;
+     display: inline-block;
+     padding: 5px;
+     border-radius: 3px;
+     text-decoration: none;
+     font-weight: 600;
+     font-size: 13px;
+     transition-property: background-color;
+     transition-duration: 750ms;
+ }
+ .paginate a:hover {
+     background-color: rgb(90, 74, 74);
+ }
+ .footer {
+    text-align: center;
+ }
+ .footer a {
+     color:  rgb(90, 74, 74);
+     text-decoration: none;
+     font-weight: 600;
+     font-size: 10px;
+ }
+ */
